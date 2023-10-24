@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.options {
+
+}
+h1  {
+    text-align: center;
+}
+button {
+    color: #FFFFFF;
+    background-color: cornflowerblue;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 1rem;
+}
+.selected {
+    color: green;
+}
+.button-chosen {
+    background-color: chocolate;
+}
