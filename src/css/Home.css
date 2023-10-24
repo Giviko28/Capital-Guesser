@@ -1,31 +1,59 @@
+.title {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.title img {
+    height: 100px;
+    width: 100px;
+}
 .wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
+.scoreboard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: end;
+    font-weight: bold;
+}
 .options {
     display: grid;
     gap: 16px;
-    grid-template-columns: 100px 100px;
+    grid-template-columns: 100px 100px 100px;
 }
 h1  {
     text-align: center;
 }
 button {
     color: #FFFFFF;
-    background-color: cornflowerblue;
+    background-color: green;
     padding: 0.5rem;
     border: none;
     border-radius: 1rem;
+    cursor: pointer;
 }
 .selected {
     background-color: green;
 }
 .wrong {
     background-color: red;
+    animation: error 0.2s linear;
 }
 .default {
     background-color: black;
+}
+
+@keyframes error {
+    0% {
+        transform: translate(-2px);
+    }
+    50% {
+        transform:translate(2px);
+    }
+    100% {
+        transform: translate(0);
+    }
 }
