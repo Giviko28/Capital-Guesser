@@ -6,7 +6,9 @@
 }
 
 .options {
-
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 100px 100px;
 }
 h1  {
     text-align: center;
@@ -19,8 +21,11 @@ button {
     border-radius: 1rem;
 }
 .selected {
-    color: green;
+    background-color: green;
 }
-.button-chosen {
-    background-color: chocolate;
+.wrong {
+    background-color: red;
+}
+.default {
+    background-color: black;
 }
