@@ -1,3 +1,9 @@
+# Description
+
+This is a small React game where you have to select a country and its corresponding capital in order to win.
+My main focus was functionality, so forget the styling for now : - )/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
