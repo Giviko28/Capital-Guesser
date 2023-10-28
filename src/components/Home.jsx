@@ -35,7 +35,7 @@ const Home = ({data}) => {
     } else {
       setSelected(null);
       // correct combo
-      if (
+      if ( // if a user picks a capital at first, the first statement would be incorrect because the key in data is the country itself
         selected.value === data[option.value] ||
         data[selected.value] === option.value
       ) {
